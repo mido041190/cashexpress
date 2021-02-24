@@ -1,0 +1,155 @@
+#conteneur {
+	animation: c 6s;
+    -moz-animation: c 6s; /* Firefox */
+    -webkit-animation: c 6s; /* Safari et Chrome */
+    -o-animation: c 6s; /* Opera */	
+}
+@keyframes c {
+    from {
+		
+        opacity:0;
+    }
+    to {
+		/*background-color:#656568;*/
+        opacity:1;
+    }
+}
+@-moz-keyframes c { /* sur Firefox */
+    from {
+		
+        opacity:0;
+    }
+    to {
+		
+        opacity:1;
+    }
+}
+.font_gris_clair, .font_noir {
+	-webkit-animation-name: chgt-cadre;
+    -webkit-animation-duration: 2s;
+    -moz-animation-name: chgt-cadre;
+    -moz-animation-duration: 2s;
+    animation-name: chgt-cadre;
+    animation-duration: 2s
+}
+/*Pour Chrome, Safari et Opéra*/
+@-webkit-keyframes chgt-cadre {
+    0% {width : 0%;}
+    100% {width : 50%;}
+	from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+/*Pour Mozilla*/
+@moz-keyframes chgt-cadre {
+    0% {width : 0%;}
+    100% {width : 50%;}
+	from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.tarif_typo {
+	animation: anim_tarif 2s;
+    -moz-animation: anim_tarif 2s; 
+    -webkit-animation: anim_tarif 2s; 
+    -o-animation: anim_tarif 2s; 
+}
+
+.prix_typo{			
+	animation: anim_prix 2s;
+    -moz-animation: anim_prix 2s; 
+    -webkit-animation: anim_prix 2s; 
+    -o-animation: anim_prix 2s; 
+}
+
+@keyframes anim_prix {
+    from {
+		font-size:0px;
+        opacity:0;
+    }
+    to {
+		font-size:60px;
+        opacity:1;
+    }
+}
+@-moz-keyframes anim_prix { /* sur Firefox */
+    from {
+		font-size:0px;
+        opacity:0;
+    }
+    to {
+		font-size:60px;
+        opacity:1;
+    }
+}
+@-webkit-keyframes anim_prix { /* sur Safari et Chrome */
+    from {
+		font-size:0px;
+        opacity:0;
+    }
+    to {
+		font-size:60px;
+        opacity:1;
+    }
+}
+@-o-keyframes anim_prix { /* sur Opera */
+    from {
+		font-size:0px;
+        opacity:0;
+    }
+    to {
+		font-size:60px;
+        opacity:1;
+    }
+}
+
+
+@keyframes anim_tarif {
+    from {
+		font-size:0px;
+        opacity:0;
+    }
+    to {
+		font-size:65px;
+        opacity:1;
+    }
+}
+@-moz-keyframes anim_tarif { /* sur Firefox */
+    from {
+		font-size:0px;
+        opacity:0;
+    }
+    to {
+		font-size:65px;
+        opacity:1;
+    }
+}
+@-webkit-keyframes anim_tarif { /* sur Safari et Chrome */
+    from {
+		font-size:0px;
+        opacity:0;
+    }
+    to {
+		font-size:65px;
+        opacity:1;
+    }
+}
+@-o-keyframes anim_tarif { /* sur Opera */
+    from {
+		font-size:0px;
+        opacity:0;
+    }
+    to {
+		font-size:65px;
+        opacity:1;
+    }
+}
+
+
+
